@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    color: rgb(194, 152, 218);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.main {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.container {
+    padding: 70px 60px;
+}
+
+.head {
+    background: black;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    font-size: 18px;
+}
+
+.head img {
+    width: 55px;
+}
+
+.head h1 {
+    margin-right: 10px;
+    font-size: 50px;
+    color: rgb(206, 206, 206);
+}
+
+.block1 {
+    display: flex;
+    font-size: 23px;
+    line-height: 100px;
+    margin-bottom: 50px;
+
+
+}
+
+.block1 img {
+    width: 400px;
+    padding-left: 30px;
+}
+
+.block2 {
+    background: rgb(29, 29, 29);
+    height: 1259px;
+    border-top-right-radius: 120px;
+    border-top-left-radius: 120px;
+    text-align: center;
+    border-top: 2px solid purple;
+}
+
+.block2 h2 {
+    padding-top: 60px;
+    font-size: 50px;
+    padding-bottom: 80px;
+    color: rgb(206, 206, 206);
+}
+
+.input {
+    width: 600px;
+    height: 60px;
+    font-size: 35px;
+    color: rgb(194, 152, 218);
+    font-weight: 500;
+    background: rgb(82, 82, 82);
+    outline: none;
+    border: none;
+    border-radius: 45px;
+    margin-bottom: 50px;
+    padding: 5px 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button {
+    margin-top: 50px;
+    font-size: 37px;
+    font-family: 'Roboto Mono', monospace;
+    background: black;
+    border: 1px solid purple;
+    color: rgb(206, 206, 206);
+    border-radius: 20px;
+    padding: 40px 70px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: purple;
+}
